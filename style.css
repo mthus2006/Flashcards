@@ -17,7 +17,8 @@ body{
 
 .cartao__conteudo{
     text-align: center;
-    
+    background-color: blue;
+    height: 0;
 }
 
 footer{
