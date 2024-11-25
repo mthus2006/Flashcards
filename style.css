@@ -74,7 +74,9 @@ footer p{
     font-weight: 700;
 }
 
-.cartao.active .cartao__conteudo
+.cartao.active .cartao__conteudo{
+    transform: rotateY('180deg');
+}
 
 .cartao:hover .cartao__conteudo{
     transform: rotatey:(180deg);
@@ -101,7 +103,12 @@ footer p{
         bottom: 0%;
         width: 100%;
         height: 2rem;
-
+        @media (max-whidth: 560px){
+            body{
+                background: url('img')
+        }
+        
+                
     }
     footer p {
         text-align: center;
